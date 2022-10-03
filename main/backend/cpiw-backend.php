@@ -59,7 +59,6 @@ function CPIW_SettingPincode() {
                                         </th>
                                         <td>
                                           <input type="checkbox" disabled name="cpiw_comman[cpiw_enable_Add_to_cart]" value="enable">
-                                          <label class="cpiw_pro_version_link"><a href="https://www.plugin999.com/plugin/check-pincode-for-woocommerce/" target="_blank">Only Available In Pro Version</a></label>
                                         </td>
                                     </tr>
                                     <tr>
@@ -68,7 +67,6 @@ function CPIW_SettingPincode() {
                                         </th>
                                         <td>
                                           <input type="checkbox" disabled name="cpiw_comman[cpiw_placeordershow]" value="enable">
-                                          <label class="cpiw_pro_version_link"><a href="https://www.plugin999.com/plugin/check-pincode-for-woocommerce/" target="_blank">Only Available In Pro Version</a></label>
                                         </td>
                                     </tr>
                                     <tr>
