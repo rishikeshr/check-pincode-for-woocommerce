@@ -67,6 +67,7 @@ function CPIW_SettingPincode() {
                                         </th>
                                         <td>
                                           <input type="checkbox" disabled name="cpiw_comman[cpiw_placeordershow]" value="enable">
+                                          <label class="cpiw_pro_version_link"><a href="https://www.plugin999.com/plugin/check-pincode-for-woocommerce/" target="_blank">Only Available In Pro Version</a></label>
                                         </td>
                                     </tr>
                                     <tr>
@@ -287,8 +288,8 @@ function CPIW_SettingPincode() {
                                               <?php echo __('Not Available Text', 'check-pincode-in-woocommerce' ); ?>
                                             </th>
                                             <td>
-                                              <input type="text" disabled name="cpiw_comman[cpiw_checknotavailabletext]" class="regular-text" value="We Are Not Services This Place"><br>
-                                              <label class="cpiw_pro_version_link"><a href="https://www.plugin999.com/plugin/check-pincode-for-woocommerce/" target="_blank">Only Available In Pro Version</a></label>
+                                              <?php $cpiw_checknotavailabletext = $cpiw_comman['cpiw_checknotavailabletext']; ?>
+                                              <input type="text"  name="cpiw_comman[cpiw_checknotavailabletext]" class="regular-text" value="We Do Not Service This Location Yet. Please Let Us Know."><br>
                                             </td>
                                         </tr>
                                         <tr>
