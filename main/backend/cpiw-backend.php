@@ -289,7 +289,7 @@ function CPIW_SettingPincode() {
                                             </th>
                                             <td>
                                               <?php $cpiw_checknotavailabletext = $cpiw_comman['cpiw_checknotavailabletext']; ?>
-                                              <input type="text"  name="cpiw_comman[cpiw_checknotavailabletext]" class="regular-text" value="We Do Not Service This Location Yet. Please Let Us Know."><br>
+                                              <input type="text"  name="cpiw_comman[cpiw_checknotavailabletext]" class="regular-text" value="<?php echo esc_attr($cpiw_checknotavailabletext); ?>">
                                             </td>
                                         </tr>
                                         <tr>
