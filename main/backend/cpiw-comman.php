@@ -22,6 +22,7 @@ function cpiw_InitialSave(){
         'cpiw_cashondelinotimg_form'=>'',
         'cpiw_changebutton_text'=>'Change',
         'cpiw_checkavail_text'=>'Check Availability At',
+        'cpiw_checknotavailabletext'=>'Not Available',
         'cpiw_pincodeplace_text'=>'pincode',
         'cpiw_checklocationtext_text'=>'Check your location availability info',
         'cpiw_cpopsubmit_text'=>'submit',
